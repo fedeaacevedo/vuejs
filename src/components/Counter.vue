@@ -21,10 +21,10 @@ export default {
     props: {
         title: String,
         start: {
-            Number, //Aca creamos el start, este es el paso 1
-            default: 100,
+            Number,
+            default: 0,
             validator(value){
-                return value > 100
+                return value >= 0
             }
         }
     },

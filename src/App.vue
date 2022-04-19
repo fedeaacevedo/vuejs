@@ -1,20 +1,20 @@
 
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-
-  
-   <Counter /> <!--Pasamos el start como una propiedas de nuestro componente, este es el paso 2-->
-
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <Counter /> Pasamos el start como una propiedas de nuestro componente, este es el paso 2 -->
+  <Indecision />
 </template>
 
 <script>
 import Counter from './components/Counter.vue'
+import Indecision from './components/Indecision.vue'
 
 export default {
   name: 'App',
   components: {
     Counter,
+    Indecision
   },
   
 }
